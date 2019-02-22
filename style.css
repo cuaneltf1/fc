@@ -21,14 +21,15 @@ h3{
 }
 
 header{
-    background:#263071;
+    background:url(img/aperture-vintage-212345-unsplash.jpg);
+    background-position: center center;
     position:relative;
-    padding:10px 0px;
+    padding:0px 10px 10px 0px;
 }
 
 nav{
     position:absolute;
-    top:18px;
+    top:10px;
     right:10px;
 }
 
@@ -43,12 +44,12 @@ nav li{
 nav a{
     display:block;
     text-decoration:none;
-    color:#ffff;
+    color:#fff;
     padding:0px 10px;
 }
 
 nav a:hover{
-    color:#6a7587;
+    color:#000;
 }
 
 .container{
@@ -64,12 +65,26 @@ nav a:hover{
 }
 
 #obj{
-    background-image:url(img/bg.jpg);
+    background-image:url(img/jari-hytonen-535479-unsplash.jpg);
     background-size:cover;
     background-attachment:fixed;
+    background-position: center center;
+    color:#fff;
 }
 
-overlay{
+#exp{
+    background-image:url(img/zoltan-kovacs-270474-unsplash.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    color:#fff;
+    
+}
+
+.overlay1{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0));
+}
+
+.overlay2{
     background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
 }
 
@@ -88,24 +103,4 @@ overlay{
     padding-left:40px;
     color:#fff;
 }
-
-#exp{
-    background-image:url(img/sectionbg.jpg);
-    background-size:cover;
-    background-attachment:fixed;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
